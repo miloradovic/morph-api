@@ -11,7 +11,9 @@ mora manuelno da se napravi baza u MySQL-u [unutar .env fajla ima DB_DATABASE, p
 
 Terminal komande:
 > composer install (instalira se aplikacija i paketi)
+
 > php artisan migrate (pokreces migracije, mislim da je ovaj deo drugaciji od symfony-a)
+
 > php ./vendor/bin/phpunit (ovako sam pokretao phpunit testove, nadam se da nema sukoba putanja Win/Mac/Linux)
 -------------------------------------------------------
 
