@@ -10,11 +10,14 @@ Kada skines aplikaciju i postavis u odgovarajuci folder (ako je wampp, xampp ond
 mora manuelno da se napravi baza u MySQL-u [unutar .env fajla ima DB_DATABASE, pa neka se nazivi poklapaju]
 
 Terminal komande:
-> composer install (instalira se aplikacija i paketi)
+> composer install 
+(instalira se aplikacija i paketi)
 
-> php artisan migrate (pokreces migracije, mislim da je ovaj deo drugaciji od symfony-a)
+> php artisan migrate 
+(pokreces migracije, mislim da je ovaj deo drugaciji od symfony-a)
 
-> php ./vendor/bin/phpunit (ovako sam pokretao phpunit testove, nadam se da nema sukoba putanja Win/Mac/Linux)
+> php ./vendor/bin/phpunit 
+(ovako sam pokretao phpunit testove, nadam se da nema sukoba putanja Win/Mac/Linux)
 -------------------------------------------------------
 
 > php artisan serve (ova komanda pokrece web server ukoliko ne zelis da se igras sa drugim aplikacijama, samo treba da je Mysql server prethodno pokrenut i to je to)
